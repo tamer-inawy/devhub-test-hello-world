@@ -3,7 +3,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    ORG = 'trilogy-group'
+    ORG = 'tamer-inawy'
     APP_NAME = 'devhub-test-hello-world'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
   }
